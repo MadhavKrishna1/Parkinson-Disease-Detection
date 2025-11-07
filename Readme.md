@@ -26,7 +26,7 @@ The primary objective of this project is to develop a non-invasive and accessibl
 │   ├── classification\_reports.txt  
 │   └── model\_performance\_summary.csv  
 ├── FODS\_EDA.ipynb  
-├── train\_parkinsons.py  
+├── Trained\_Models.ipynb  
 ├── parkinsons\_model.pkl  
 ├── scaler.pkl  
 ├── Final\_Report.pdf  
