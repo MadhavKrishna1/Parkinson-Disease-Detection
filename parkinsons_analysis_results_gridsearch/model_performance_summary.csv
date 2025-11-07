@@ -1,0 +1,9 @@
+Model,F1-Score,Accuracy,Precision,Recall,AUC-ROC,Best Params
+Random Forest,0.9395806541794801,0.9387755102040817,0.941348334205477,0.9387755102040817,0.971846846846847,"{'class_weight': None, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}"
+XGBoost,0.9014723260196097,0.8979591836734694,0.912484993997599,0.8979591836734694,0.9684684684684685,"{'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.7}"
+Support Vector Machine,0.8735963284835465,0.8775510204081632,0.8735740450026165,0.8775510204081632,0.9144144144144144,"{'C': 100, 'gamma': 0.1, 'kernel': 'rbf', 'probability': True}"
+K-Nearest Neighbors,0.8367346938775511,0.8367346938775511,0.8367346938775511,0.8367346938775511,0.7792792792792793,"{'metric': 'euclidean', 'n_neighbors': 1, 'weights': 'uniform'}"
+ANN (PyTorch),0.8314617713113955,0.8367346938775511,0.8297226582940869,0.8367346938775511,0.9099099099099098,"{'batch_size': 32, 'lr': 0.01, 'max_epochs': 100, 'module__dropout': 0.1, 'module__hidden': (256, 128), 'optimizer__weight_decay': 1e-05}"
+Logistic Regression,0.8226501868352974,0.8163265306122449,0.8354141656662666,0.8163265306122449,0.8986486486486487,"{'C': 1, 'class_weight': None, 'max_iter': 4000, 'penalty': 'l1', 'solver': 'saga'}"
+Decision Tree,0.8226501868352974,0.8163265306122449,0.8354141656662666,0.8163265306122449,0.8378378378378379,"{'class_weight': None, 'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10}"
+Naive Bayes,0.6574650912996778,0.6326530612244898,0.7836325165517711,0.6326530612244898,0.7601351351351352,{'var_smoothing': 1e-09}
