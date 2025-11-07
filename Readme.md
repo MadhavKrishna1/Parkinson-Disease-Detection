@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 This script will load the primary dataset (parkinsons.data) from the UCI repository, train all 8 models, and generate all plots and reports in the parkinsons\_analysis\_results\_gridsearch/ directory.
 ```bash
-jupyter notebook Trained\_Models.ipynb
+jupyter notebook Trained_Models.ipynb
 ```
 (Run all cells in the notebook to execute the analysis.)
 
