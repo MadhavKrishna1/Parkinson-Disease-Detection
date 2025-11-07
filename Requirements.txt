@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+ucimlrepo
+xgboost
+skorch
+torch
+matplotlib
+seaborn
+joblib
