@@ -43,24 +43,20 @@ The primary objective of this project is to develop a non-invasive and accessibl
 
 ## **How to Replicate the Work**
 
-### **1\. Setup**
+### **1. Setup**
 
-You will need Python 3 and the following libraries. You can install them via pip:
+You will need Python 3 and the following libraries. Install them via pip:
 
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn joblib streamlit xgboost torch skorch
+```
+### **2. Run the Main Analysis**
 
-*(Note: shap may also be required if running the interpretability sections.)*
+This script will load the primary dataset (`parkinsons.data`) from the UCI repository, train all 8 models, and generate all plots and reports in the `parkinsons_analysis_results_gridsearch/` directory.
 
-### **2\. Run the Main Analysis**
-
-This script will load the primary dataset (parkinsons.data) from the UCI repository, train all 8 models, and generate all plots and reports in the parkinsons\_analysis\_results\_gridsearch/ directory.
-
-python train\_parkinsons.py
-
-This script will also automatically save parkinsons\_model.pkl and scaler.pkl for use in the web app.
-
-## **Final Model**
-
+```bash
+python train_parkinsons.py
+```
 * **Model:** **Random Forest**  
 * **Test Set F1-Score:** **0.9396**  
 * **Test Set AUC-ROC:** **0.9718**
