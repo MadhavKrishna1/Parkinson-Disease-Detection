@@ -55,7 +55,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn joblib streamlit xgboos
 This script will load the primary dataset (`parkinsons.data`) from the UCI repository, train all 8 models, and generate all plots and reports in the `parkinsons_analysis_results_gridsearch/` directory.
 
 ```bash
-python train_parkinsons.py
+jupyter notebook Trained_Model.ipynb
 ```
 * **Model:** **Random Forest**  
 * **Test Set F1-Score:** **0.9396**  
